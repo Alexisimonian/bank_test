@@ -1,0 +1,26 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/home/alexis/projects/makers/weeks/week_10/bank_test/spec/account_spec.rb": {
+        "lines": [
+          null,
+          null,
+          1
+        ]
+      },
+      "/home/alexis/projects/makers/weeks/week_10/bank_test/lib/account.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "timestamp": 1599489064
+  }
+}
