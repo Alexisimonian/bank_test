@@ -1,9 +1,10 @@
 # frozen_string_literal: true
 
+ENV['ENVIRONMENT'] = 'test'
 require 'rspec'
 require 'simplecov'
 require 'simplecov-console'
-ENV['ENVIRONMENT'] = 'test'
+require './db_setup.rb'
 require_relative './set_up_test_db.rb'
 
 SimpleCov.start
