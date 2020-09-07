@@ -10,5 +10,6 @@ describe Transaction do
     expect(transac.length).to eq(2)
     expect(transac.first).to be_a Transaction
     expect(transac.first.id).to eq(first_transac.id)
+    Transaction.display
   end
 end
