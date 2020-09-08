@@ -33,7 +33,7 @@ class Transaction
     credit: result[0]['credit'],
     debit: result[0]['debit'],
     balance: result[0]['balance'],
-    user_id: result[0]['balance']
+    user_id: result[0]['user_id']
   )
   end
 
