@@ -3,7 +3,7 @@
 require 'user'
 
 describe User do
-  let(:user){ User.create }
+  let(:user) { User.create }
 
   it 'saves users into db' do
     user
