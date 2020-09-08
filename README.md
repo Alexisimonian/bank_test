@@ -33,8 +33,8 @@ Type `rspec` into the console to run tests.
 
 ## Code structure
 
-I have decided to implement a database with a one to many relashionship: one user can have multiple transactions. The reason for doing so is that we can easily access information about all previous transactions made.  
-I have decided to implement users to give space to possible additional features related to them. It also allowed me to separate better the responsibilties of classes: User credit and debit the account and keep their account status while Transaction is responsible for saving the transaction into the database and displaying them.
+I have decided to implement a database with a 'one to many' relashionship: one user can have multiple transactions. The reason for doing so is that we can easily access information about all previous transactions made.  
+I have decided to implement users to give space to possible additional features related to them. It also allowed me to separate better the responsibilties of classes: User credit and debit the account and keep its account status while Transaction is responsible for saving the transaction into the database and displaying them.
 
 ## How it works
 
