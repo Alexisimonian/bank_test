@@ -24,12 +24,12 @@ date || credit || debit || balance
 
 ## Running the code
 
-This code uses databases to save transactions made by specific users.
-Therefore, to run the code and its tests, initiate first required tables by typing the code in db/migrations.
+This code uses databases to save transactions made by specific users.  
+Therefore, to run the code and its tests, initiate first required tables by typing the code in db/migrations.  
 
 ## How it works
 
-`User.create` will create a new User with a unique id.
-We can then call on this user `credit(with_a_amount)` or `debit(with_a_amount)` to credit or debit their account with the specified amount.
-The transaction will automatically be saved into the database.
-To see all transactions made by a specific user, call `status` on it. This command will fetch into the database the transactions this user made. 
+`User.create` will create a new User with a unique id.  
+We can then call on this user `credit(with_a_amount)` or `debit(with_a_amount)` to credit or debit their account with the specified amount.  
+The transaction will automatically be saved into the database.  
+To see all transactions made by a specific user, call `status` on it. This command will fetch into the database the transactions this user previously made.  
