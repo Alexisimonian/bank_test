@@ -19,9 +19,9 @@ class Transaction
     self.all.each do |line|
       if id.to_s == line.user_id.to_s
         puts "#{line.date} || #{line.credit} || #{line.debit} || #{line.balance}"
-        return id
       end
     end
+    return id
   end
 
   def self.create(credit:, debit:, balance:, user_id:)

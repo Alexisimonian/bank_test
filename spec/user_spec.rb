@@ -22,4 +22,10 @@ describe User do
     user.debit(50)
     expect(user.balance).to eq(-50)
   end
+
+  it 'can display transactions' do
+    user.credit(100)
+    user.debit(50)
+    expect(user.status).to eq("1")
+  end
 end

@@ -12,12 +12,12 @@ class User
 
   def credit(amount)
     @balance += amount
-    Transaction.create(credit: amount, debit: 0, balance: @balance, user_id: @id)
+    Transaction.create(credit: amount, debit: nil, balance: @balance, user_id: @id)
   end
 
   def debit(amount)
     @balance -= amount
-    Transaction.create(credit: 0, debit: amount, balance: @balance, user_id: @id)
+    Transaction.create(credit: nil, debit: amount, balance: @balance, user_id: @id)
   end
 
   def status
