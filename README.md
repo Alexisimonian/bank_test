@@ -32,4 +32,4 @@ Therefore, to run the code and its tests, initiate first required tables by typi
 `User.create` will create a new User with a unique id.
 We can then call on this user `credit(with_a_amount)` or `debit(with_a_amount)` to credit or debit their account with the specified amount.
 The transaction will automatically be saved into the database.
-To see all transactions made by a specific user, call `status` on it. This command will fetch into the database the transactions this user made.
+To see all transactions made by a specific user, call `status` on it. This command will fetch into the database the transactions this user made. 
